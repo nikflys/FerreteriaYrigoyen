@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Fondo blanco */
+  color: #333;
+}
+
+header {
+  background-color: #b30000; /* Rojo oscuro para el encabezado */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcccc; /* Rojo claro al pasar el ratón */
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #b30000; /* Rojo oscuro */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+button {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #ff4d4d; /* Un tono más claro de rojo para los botones al hacer hover */
+}
+
+
+  .notificacion {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #b30000;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+  }
+  
