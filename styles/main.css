@@ -1,67 +1,95 @@
+/* styles.css */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   background-color: #ffffff; /* Fondo blanco */
-  color: #333;
 }
 
 header {
-  background-color: #b30000; /* Rojo oscuro para el encabezado */
+  background-color: #d9534f; /* Rojo fuerte */
   color: white;
-  padding: 20px 0;
-  text-align: center;
+  padding: 10px 0;
 }
 
-nav a {
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
   margin: 0 15px;
+}
+
+nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav a:hover {
-  color: #ffcccc; /* Rojo claro al pasar el ratón */
+section {
+  padding: 40px 20px;
 }
 
-main {
-  padding: 20px;
-  text-align: center;
+section#home {
+  background-color: #f7f7f7; /* Fondo gris claro para inicio */
+}
+
+section#products, section#about, section#contact {
+  background-color: #ffffff; /* Fondo blanco para secciones */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #d9534f; /* Rojo fuerte */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #c9302c; /* Rojo oscuro */
 }
 
 footer {
-  background-color: #b30000; /* Rojo oscuro */
+  background-color: #d9534f; /* Rojo fuerte */
   color: white;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 10px 0;
 }
 
-button {
-  background-color: #b30000;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  margin: 10px;
-}
-
-button:hover {
-  background-color: #ff4d4d; /* Un tono más claro de rojo para los botones al hacer hover */
-}
-
-
-  .notificacion {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background-color: #b30000;
-    color: white;
-    padding: 15px;
-    border-radius: 5px;
-    display: none;
-  }
   
